@@ -6,14 +6,16 @@ import GlobalStyles from '../assets/styles/globalStyles'
 
 import Nav from './nav'
 import Footer from './footer'
+import Typography from '../assets/styles/typography'
 
 const Layout = ({ children }) => (
-  <div>
+  <>
+    <Typography />
     <GlobalStyles />
     <Nav />
     {children}
     <Footer />
-  </div>
+  </>
 )
 
 Layout.propTypes = {
