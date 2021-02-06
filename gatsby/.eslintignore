@@ -1,0 +1,17 @@
+!.eslintrc*
+node_modules*
+public
+.cache
+build
+dist
+*.svg
+*.ico
+*.json
+.gitignore
+*.md
+*.log
+*.lock
+*.js
+gatsby-browser.js
+gatsby-config.js
+gatsby-ssr.js

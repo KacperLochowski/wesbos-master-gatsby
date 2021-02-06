@@ -1,7 +1,7 @@
 import React from 'react'
 import { Link } from 'gatsby'
 
-const Nav = () => (
+const Nav = (): JSX.Element => (
   <nav>
     <ul>
       <li>
@@ -11,7 +11,7 @@ const Nav = () => (
         <Link to='/pizzas'>Pizza Menu</Link>
       </li>
       <li>
-        <Link to='/'>Slick's Slices</Link>
+        <Link to='/'>Slick&apos;s Slices</Link>
       </li>
       <li>
         <Link to='/slicemasters'>SliceMasters</Link>
